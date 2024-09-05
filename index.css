@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 694px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    
+}
+nav{
+    height: 72px;
+    width: 100%;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 0;
+    background: #1C1C1C33;
+    border-bottom: 1px solid #FF777766;
+    
+}
+label{
+    margin: 0 120px;
+    line-height: 72px;
+    font-size: 23px;
+    color: #FE0000; 
+    font-size: 45px;
+    font-family: "Pirata One", system-ui;
+
+}
+span{
+    color: white;
+}
+.imgbox{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+  width: auto;
+  height: 112px;
+  top: 243px;
+  left: 120px;
+  /* border: 1px solid; */
+  position: absolute;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+  color: white;
+}
+.btn{
+    width: 211px;
+    height: 52px;
+    top: 401px;
+    left: 120px;
+    gap: 4px;
+    opacity: 0px;
+    position: absolute;
+    border: none;
+    background: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FE0000;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    height: 370px;
+    /* border: 1px solid; */
+    margin: auto;
+    /* display: flex; */
+
+}
+h2 {
+    width: 70%; 
+    text-align: center; 
+    line-height: .2em;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #F27121;
+} 
+
+h2 span { 
+    background: white; 
+    color: #F27121;
+    padding:0 50px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+}
+.products > h2{
+    margin-top: 50px;
+}
+.products > h2 span { 
+    background: white; 
+    color: #F27121;
+    padding:0 20px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.aboutme{
+    width: 80%;
+    height: auto;
+    left: 266px;
+    /* border: 2px solid; */
+    margin: auto;
+    margin-top: 70px;
+    font-family: Roboto;
+}
+.aboutme p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.aboutme h3{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.products{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.productsdetails{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+}
+.inside{
+    width: 1230px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid; */
+}
+.details1, .details2{
+    width: 584px;
+    height: 530px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #CECECE
+}
+.imgbox-1{
+    height: 434px;
+    width: 560px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 12px;
+}
+.name{
+
+    height: 52px;
+    width: 560px;
+    margin: auto;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.details1 h3{
+  font-size: 20px;
+  font-family: Roboto;
+}
+.details2 h3{
+    font-size: 20px;
+    font-family: Roboto;
+
+}
+.btn2{
+    width: 221px;
+    height: 52px;
+    /* margin-top: 25px; */
+    background: #FE0000;
+    font-weight: 550;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.socialmedia{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid; */
+}
+hr{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 5px;
+    background-color: #F27121;
+    border: none;
+}
+.socialmediaimg{
+    width: 100%;
+    height: 118px;
+    background: #25A769;
+    margin-top: 7%;
+    display: grid;
+    align-items: center;
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid yellow;
+
+
+}
+.follow{
+    width: 161px;
+    height: 25px;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(236, 225, 76);
+    font-weight: 550;
+    font-family: Roboto;
+}
+.allimg{
+    width: 260px;
+    height: auto;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
+
+}
+
+.img1{
+    height: 36px;
+    width: 36px;
+    margin: auto;
+    border-radius: 50%;
+}
+.setimg{
+    border-radius: 50%;
+}
+
+@media all and (max-width:1225px){
+    
+
+    .about{
+        height: auto;
+    }
+    .productsdetails{
+        height: auto;
+    }
+    .inside{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media all and (max-width:600px){
+     
+    .heading{
+        height: auto;
+        top: 10;
+        left: 50px
+        
+        
+    }
+    .details1, .details2{
+        width: 384px;
+        height: 275;
+        margin: auto;
+        margin-top: 50px;
+        border: 1px solid #CECECE
+
+    }
+    .imgbox-1{
+        height: 434px;
+        width: 350px;
+        /* border: 1px solid; */
+        margin: auto;
+        margin-top: 12px;
+    }
+    .name{
+        height: 52px;
+        width: 100%;
+        margin: auto;
+        /* border: 1px solid; */
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+  .btn2{
+    width: 150px;
+    height: 52px;
+    /* margin-top: 25px; */
+    background: #FE0000;
+    font-weight: 550;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+label{
+    margin: 0 50px;
+    line-height: 72px;
+    font-size: 23px;
+    color: #FE0000; 
+    font-size: 45px;
+    font-family: "Pirata One", system-ui;
+
+}
+
+
+
+}
+@media all and (max-width:690px){
+    .btn{
+  
+    top: 501px;
+    left: 50px;
+}
+.heading{
+    left: 50px;
+}
+
+}
+@media all and (max-width:410px){
+    .details1, .details2{
+        width: 240px;
+        height: 275;
+        margin: auto;
+        margin-top: 50px;
+        border: 1px solid #CECECE
+
+    }
+    .imgbox-1{
+        height: 434px;
+        width: 220px;
+        /* border: 1px solid; */
+        margin: auto;
+        margin-top: 12px;
+    }
+    .name{
+    
+        margin: auto;
+        /* border: 1px solid; */
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .btn2{
+        width: 125px;
+        height: 52px;
+        /* margin-top: 25px; */
+        background: #FE0000;
+        font-weight: 550;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+    .heading{
+        left: 30px;
+        top: 150px;
+    }
+    .btn{
+        left: 30px;
+        top: 470px;
+        
+    }
+    label{
+    margin: 0 30px;
+    line-height: 72px;
+    font-size: 23px;
+    color: #FE0000; 
+    font-size: 45px;
+    font-family: "Pirata One", system-ui;
+
+}
+.products h2 > span{
+
+    padding: 0 10px;
+    font-size: 24px;
+
+}
+
+
+
+}
+
+
